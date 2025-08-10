@@ -1,0 +1,29 @@
+package Day4;
+
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int i=num;
+	    int count=0;
+		for(i=2;i<=num;i++) {
+			if(num%i ==0) {
+				System.out.println(i);//optional to know the num is divisible what num
+				count++;
+			}
+
+		}
+		  if(count==1) {
+			  System.out.println("Prime");
+		  }
+		  else {
+			  System.out.println("Not Prime"); 
+		  }
+		
+		
+	}
+
+}
