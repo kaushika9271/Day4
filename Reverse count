@@ -1,0 +1,13 @@
+package Day4;
+
+public class Reverse count {
+
+	public static void main(String[] args) {
+		int num=10;
+		int i=num;
+		for(i=num;i>=0;i--) {
+			System.out.println(i);
+		}
+	}
+
+}
